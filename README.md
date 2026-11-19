@@ -1,3 +1,16 @@
+export AWS_ACCESS_KEY_ID="$ACCESS_KEY"
+export AWS_SECRET_ACCESS_KEY="$SECRET_ACCESS_KEY"
+export AWS_DEFAULT_REGION="ap-south-1"
+
+aws configure list
+
+aws sts get-caller-identity
+
+
+
+
+
+
 Still got not specified in dashboard here Data Engineer I, ITC
 
 Nike
