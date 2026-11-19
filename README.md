@@ -1,3 +1,16 @@
+aws --version
+
+sudo apt-get update
+sudo apt-get install -y unzip curl
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip -q awscliv2.zip
+sudo ./aws/install
+
+
+
+
 export AWS_ACCESS_KEY_ID="$ACCESS_KEY"
 export AWS_SECRET_ACCESS_KEY="$SECRET_ACCESS_KEY"
 export AWS_DEFAULT_REGION="ap-south-1"
